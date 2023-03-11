@@ -25,6 +25,14 @@ body {
     display: inline-flex;
 }
 
+.index-buttons {
+    font-family: GoT;
+    text-align: center;
+    list-style-type: none;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
 .hover:hover {
     text-decoration: none;
     background-color: #fff;
@@ -33,13 +41,11 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.index-buttons {
-    font-family: GoT;
+.about-main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    list-style-type: none;
-    padding-right: 40px;
-    padding-bottom: 20px;
 }
+
 
 .buttons {
     color: unset;
@@ -53,7 +59,7 @@ body {
 }
 
 .url-links {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-position: inside;
     text-align: center;
     font-size: 18px;
@@ -71,26 +77,8 @@ body {
     font-size: 18px;
 }
 
-.about-main
-  section
-    h2 {
-    animation-duration: 5s;
-    animation-name: slidein;
-    font-family: GoT;
-    text-align: center;
-
-}
-
-.about-main
-  section
-    p {
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
 table {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 50%;
     margin: 0 auto;
     border-collapse: collapse;
@@ -106,3 +94,7 @@ th {
     background-color: #dddddd;
 }
 
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
