@@ -41,12 +41,6 @@ body {
     transition: all 0.2s ease-in-out;
 }
 
-.about-main {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-
 .buttons {
     color: unset;
     font-family: GoT;
@@ -56,6 +50,11 @@ body {
     justify-content: center;
     padding: 22px;
     word-spacing: 22px;
+}
+
+.about-main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .url-links {
