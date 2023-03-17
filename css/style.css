@@ -1,3 +1,5 @@
+/* global */
+
 @font-face {
     font-family: 'GoT';
     src: url('/css/fonts/gang_of_three/go3v2.ttf') format("truetype");
@@ -14,16 +16,7 @@ body {
     text-align: center;
 }
 
-.profile-pic {
-    border-radius: 50%;
-    height: 150px;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-
-.index-menu {
-    display: inline-flex;
-}
+/* buttons */
 
 .index-buttons {
     font-family: GoT;
@@ -31,6 +24,10 @@ body {
     list-style-type: none;
     padding-right: 40px;
     padding-bottom: 20px;
+}
+
+.index-menu {
+    display: inline-flex;
 }
 
 .hover:hover {
@@ -52,14 +49,13 @@ body {
     word-spacing: 22px;
 }
 
-.url-links {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    list-style-position: inside;
-    text-align: center;
-    font-size: 18px;
-    justify-content: center;
-    padding-right: 45px;
-    word-spacing: 4px;
+/* index */
+
+.profile-pic {
+    border-radius: 50%;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .photo {
@@ -71,14 +67,28 @@ body {
     font-size: 18px;
 }
 
+/* bookmarks */
+
 .bookmark-container {
     border: 2px solid black;
     width: 300px;
     margin: 10px;
 }
 
-.whole-recipe {
+.bookmarks {
     display: flex;
+}
+
+.bookmark-container {
+    flex-grow: 2;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* recipes */
+
+.whole-recipe {
+    display: wrap;
     justify-content: center;
 }
 
@@ -91,11 +101,6 @@ body {
 .recipe-title {
     font-family: 'GoT';
     text-align: center;
-}
-
-.bookmarks {
-    display: flex;
-    justify-content: center;
 }
 
 table {
@@ -115,25 +120,10 @@ th {
     background-color: #dddddd;
 }
 
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
 
-h3,
-    p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
 
-h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin-bottom: 5px;
-}
 
-h5 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    margin-top: 5px;
-}
+
+
+
+
