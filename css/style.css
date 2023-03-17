@@ -76,11 +76,12 @@ body {
 }
 
 .bookmarks {
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .bookmark-container {
-    flex-grow: 2;
+    flex-grow: 1;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
