@@ -52,11 +52,6 @@ body {
     word-spacing: 22px;
 }
 
-.about-main {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
 .url-links {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-position: inside;
@@ -82,6 +77,22 @@ body {
     margin: 10px;
 }
 
+.whole-recipe {
+    display: flex;
+    justify-content: center;
+}
+
+.instruction-container {
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+.recipe-title {
+    font-family: 'GoT';
+    text-align: center;
+}
+
 .bookmarks {
     display: flex;
     justify-content: center;
@@ -102,11 +113,6 @@ th, td {
   
 th {
     background-color: #dddddd;
-}
-
-h2{
-    font-family: 'GoT';
-    text-align: center;
 }
 
 h3 {
