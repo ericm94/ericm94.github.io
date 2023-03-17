@@ -76,6 +76,17 @@ body {
     font-size: 18px;
 }
 
+.bookmark-container {
+    border: 2px solid black;
+    width: 300px;
+    margin: 10px;
+}
+
+.bookmarks {
+    display: flex;
+    justify-content: center;
+}
+
 table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 50%;
